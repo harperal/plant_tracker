@@ -16,7 +16,7 @@ B. How to receive data: Plant_tracker will write the plants to the water.txt fil
 
 Example Call to request and receive, the test.py file opens and writes 'run' to the run.txt file, plant_tracker then writes plants to the fertilizer.txt/water.txt file and that day's date to the date.txt file where test.py can read and recieve those texts from.
 
-![image](https://user-images.githubusercontent.com/81596877/181143111-025cde45-391c-456b-afcf-30a1fb2a7f84.png)![image](https://user-images.githubusercontent.com/81596877/181142902-f9779292-a781-410e-bf81-5d8504b2b344.png)
+![image](https://user-images.githubusercontent.com/81596877/181251124-975231f1-422b-4494-abcf-4433effeee30.png)[image](https://user-images.githubusercontent.com/81596877/181142902-f9779292-a781-410e-bf81-5d8504b2b344.png)
 
 UML:
 ![image](https://user-images.githubusercontent.com/81596877/181142966-67dba3bf-e11e-4fc0-9083-cb6dae7d081c.png)
