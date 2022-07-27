@@ -14,7 +14,7 @@ A. How to request data: In order to request data plant_tracker.py should be runn
 B. How to receive data: Plant_tracker will write the plants to the water.txt file or fertilizer.txt file if the amount of days since the plants have been watered or fertilized is >= their designated intervals(>= in the event a day is missed). The response will be written as a string, and if multiple plants are written to a file each plant will be on a new line. In addition, since datetime was used to determine the current date, plant_tracker will also write the date to the date.txt file. Once plant_tracker has written to files the 'run' in run.txt file should be erased. To receive the response, the main application will sleep for 2 seconds to give plant_tracker time to write to each of the txt files. It should then read all the lines in water.txt, fertilizer.txt, and date.txt. If a plant is scheduled to be watered or fertilized the schedule.txt file will need to be updated with the current date. After reading these files, the data should be removed from water.txt, fertilizer.txt, and date.txt to avoid errors when plant_tracker receives a new request. 
 
 
-Example Call to request and receive, 
+Example Call to request and receive, the test.py file opens and writes 'run' to the run.txt file, plant_tracker then writes plants to the fertilizer.txt/water.txt file and that day's date to the date.txt file where test.py can read and recieve those texts from.
 
 ![image](https://user-images.githubusercontent.com/81596877/181143111-025cde45-391c-456b-afcf-30a1fb2a7f84.png)![image](https://user-images.githubusercontent.com/81596877/181142902-f9779292-a781-410e-bf81-5d8504b2b344.png)
 
