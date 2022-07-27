@@ -3,7 +3,7 @@
 Communication Contract
 
 The following text files must be created in your local direcotry before use: run.txt, water.txt, fertilizer.txt, date.txt, schedule.txt.
-The schedule.txt file must contain each plants watering and fertilzing schedule, including the intervals(#days) between each watering and refertilizing. The structure for which the data needs to be provided is in a string 'PlantName' water_interval fertilizer_interval 'date_watered' 'date_fertilized'
+The schedule.txt file must contain each plants watering and fertilzing schedule, including the intervals(#days) between each watering and refertilizing. The structure for which the data needs to be provided is in a string 'PlantName' water_interval fertilizer_interval 'date_watered' 'date_fertilized'.
 The water_interval and fertilize_interval represent the amount of days between watering and or fertilizing. The 'date_watered' and 'date_fertilized' need to be provided in string format 'YEAR-MM-DD'. Lastly, each plant's data needs to be stored on a new line in the schedule.txt file. 
 
 The following packages must be installed: time, dateime
