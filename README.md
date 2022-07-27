@@ -14,7 +14,7 @@ B. How to receive data: Calorie_service will write the found calories to line on
 
 Example Call to request and receive, 
 
-![image](https://user-images.githubusercontent.com/81596877/181142902-f9779292-a781-410e-bf81-5d8504b2b344.png)
+![image](https://user-images.githubusercontent.com/81596877/181143111-025cde45-391c-456b-afcf-30a1fb2a7f84.png)![image](https://user-images.githubusercontent.com/81596877/181142902-f9779292-a781-410e-bf81-5d8504b2b344.png)
 
 UML:
 ![image](https://user-images.githubusercontent.com/81596877/181142966-67dba3bf-e11e-4fc0-9083-cb6dae7d081c.png)
