@@ -28,7 +28,7 @@ def get_plants(plants):
             print(f"Plants that need fertilized today: {plant}")
             with open('fertilizer.txt', 'a') as fert_file:
                 fert_file.write(f"{plant}\n")
-    open('run.txt', 'w').close()
+        open('run.txt', 'w').close()
 
 
 def main():
@@ -38,9 +38,6 @@ def main():
         file = open("run.txt", "r")
         text = file.readline()
         file.close()
-
-        if not text:
-            continue
 
         if text == "run":
 

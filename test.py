@@ -7,7 +7,7 @@ if __name__ == '__main__':
     file.write("run\n")
     file.close()
 
-    time.sleep(1)
+    time.sleep(2)
     with open('fertilizer.txt', 'r') as ffile:
         ftext = ffile.readlines()
     with open('water.txt', 'r') as wfile:
