@@ -39,7 +39,7 @@ def main():
         text = file.readline()
         file.close()
 
-        if text == "run":
+        if text == "run\n":
 
             file = open('schedule.txt', 'r')
             text = file.readlines()
